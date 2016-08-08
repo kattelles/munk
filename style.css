@@ -30,6 +30,7 @@ header img {
 
 #email {
   margin-top: 7px;
+  margin-right: 15px;
 }
 
 .links {
@@ -53,13 +54,13 @@ header img {
 
 .cover {
   background-color: #3394de;
-  height: 300px;
+  height: 350px;
 }
 
 #greeting {
-  width: 500px;
+  width: 600px;
   color: white;
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 200;
   text-align: center;
   margin: 0 auto;
@@ -70,7 +71,7 @@ header img {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 220px;
+  top: 250px;
 }
 
 .top {
@@ -80,10 +81,25 @@ header img {
   color: #00347b;
 }
 
+.text {
+  display: flex;
+  justify-content: center;
+}
+
 .middle {
+  width: 800px;
+  padding-top: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  color: #163f5e;
+}
+
+.bottom {
+  width: 600px;
   padding-top: 30px;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #00347b;
 }
@@ -100,4 +116,67 @@ header img {
   height: auto;
   position: absolute;
   top: 200px;
+}
+
+.projects {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  color: #00347b;
+}
+
+
+.picture {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.big {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.small {
+  margin-top: 40px;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.tiny {
+  width: 30px;
+  height: 30px;
+}
+
+.cluster {
+  padding: 20px;
+}
+
+.cover2 {
+  background-color: #3394de;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.cover2 img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.language {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #00347b;
+  font-size: 22px;
+}
+
+main {
+    border-bottom: 1px solid #eaedf2;
 }
