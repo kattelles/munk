@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  padding-top: 10px;
+  height: 70px;
+  /*width: 100%;*/
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
+}
+
+#logo {
+  font-size: 40px;
+  width: 170px;
+  height: 35px;
+  font-weight: 500;
+  color: #173f5d;
+  cursor: pointer;
+}
+
+#email {
+  margin-top: 7px;
+}
+
+.links {
+  margin-top: 25px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #00347b;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.cover {
+  background-color: #3394de;
+  height: 300px;
+}
+
+#greeting {
+  width: 500px;
+  color: white;
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#flake {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 220px;
+}
+
+.top {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  color: #00347b;
+}
+
+.middle {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  color: #00347b;
+}
+
+#cloud1 {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 220px;
+}
+
+#cloud2 {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 200px;
+}
